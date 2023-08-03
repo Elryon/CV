@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Obra';
+    src: local('KC Obra Letra Bold'), local('KC-Obra-Letra-Bold'),
+        url('font/obraLetra/KCObraLetraBold.woff2') format('woff2'),
+        url('font/obraLetra/KCObraLetraBold.woff') format('woff'),
+        url('font/obraLetra/KCObraLetraBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Inter';
+    color: white;
+    align-self: center;
+    font-size:50px;
+    margin-bottom: 17px;
+}
+
+h2{
+    font-family: 'Obra';
+    text-decoration: underline;
+    font-size: 40px;
+    margin-top: 37px;
+    margin-bottom: 15px;
+}
+
+h3, h4, p, li{
+    font-family: 'Open Sans';
+    margin: 0%;
+}
+
+h3{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.goal-contact{
+    color: rgb(222, 181, 0);
+}
+
+.goal-contact h3{
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.goal-contact h4{
+    font-size: 26px;
+}
+
+.contact p{
+    color: rgba(222, 181, 0, 0.796);
+    font-size: 25px;
+}
+
+.CV{
+    width: 1414px;
+    height: 2000px;
+    background-image: url('img/fond-CV.png');
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 10fr;
+    gap: 40px;
+}
+
+.presentation{
+    width: 70%;
+    position: relative;
+    top: 15px;
+    left: 280px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    font-weight:700;
+}
+
+.goal-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.details{
+    font-size: 25px;
+    width: 80%;
+    position: relative;
+    left: 150px;
+}
+
+.text{
+    position: relative;
+    left: 40px;
+    width: 70%;
+}
+
+.list{
+    margin-top: 5px;
+    padding-inline-start: 60px;
+    font-weight: bold;
+}
+
+.img-link a{
+    width: 182px;
+    height: 182px;
+}
+
+.img-link a img{
+    width: 182px;
+    height: 182px;
+}
+
+.hobby-link{
+    display: flex;
+    flex-direction: row;
+}
+
+.hobby{
+    width: 45%;
+}
+
+.hobby p{
+    font-size: 27px;
+    font-weight: bolder;
+    width: 65%;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+.img-link{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    position: relative;
+    left: 40px;
+}

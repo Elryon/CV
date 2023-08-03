@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'KC Obra Letra';
+    src: local('KC Obra Letra Bold'), local('KC-Obra-Letra-Bold'),
+        url('KCObraLetraBold.woff2') format('woff2'),
+        url('KCObraLetraBold.woff') format('woff'),
+        url('KCObraLetraBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
